@@ -10,15 +10,16 @@
 
 # fzf
 
-A command-line fuzzy finder written in Go - Plugin for [Oh My Fish][omf-link].
+:cherry_blossom: A command-line [fuzzy finder](https://github.com/junegunn/fzf) written in Go - Plugin for [Oh My Fish][omf-link].
 
 ## Install
 
-On OSX using `homebrew`:
+On OSX `fzf` can be installed using `homebrew`:
 
 ```fish
 $ brew install fzf
 ```
+Please add the package now:
 
 ```fish
 $ omf install fzf
@@ -26,22 +27,33 @@ $ omf install fzf
 
 ## Usage
 
+Fuzzily change directory:
+
 ```fish
 $ fcd
+```
+Fuzzily browse command history and return selection:
+
+```fish
 $ fh
+```
+
+Fuzzily browse file listings and return selection"
+
+```fish
 $ fls
 ```
 
 # License
 
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT][mit] © [Tom Hensel][author] et [al][contributors]
 
 
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/pkg-fzf/graphs/contributors
+[contributors]:   https://github.com/gretel/pkg-fzf/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
 [travis-badge]:   http://img.shields.io/travis/{{USER}}/fzf.svg?style=flat-square
-[travis-link]:    https://travis-ci.org/{{USER}}/fzf
+[travis-link]:    https://travis-ci.org/gretel/fzf
